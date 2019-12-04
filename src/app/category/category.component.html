@@ -1,0 +1,10 @@
+<h1>Available categories</h1>
+<div *ngIf="categories">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let c of categories">
+            <div class="search-res well">
+                <h6><a>{{c}}</a></h6>
+            </div>
+        </div>
+    </div>
+</div>
